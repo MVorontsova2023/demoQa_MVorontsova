@@ -56,4 +56,5 @@ public class BooksStoreTests extends TestBase {
         bookStorePage.goToBookStorePage();
         bookStorePage.selectPaging();
     }
+
 }

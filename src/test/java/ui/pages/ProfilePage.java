@@ -162,5 +162,4 @@ public class ProfilePage extends PageBase {
         WebElement el = deleteAllButton.get(0);
         Assert.assertNotNull(el, "DeleteButton is absent");
     }
-
 }

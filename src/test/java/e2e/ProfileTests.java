@@ -56,4 +56,5 @@ public class ProfileTests extends TestBase {
         profilePage.goToLogin();
         profilePage.selectLastButtons();
     }
+
 }

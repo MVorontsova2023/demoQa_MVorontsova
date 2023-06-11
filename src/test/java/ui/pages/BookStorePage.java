@@ -95,4 +95,5 @@ public class BookStorePage extends PageBase {
         Boolean isLessOrEqual = (currentPageNumber <= pageCount);
         Assert.assertTrue(isLessOrEqual, "currentPageNumber is not less or equal to pageCount");
     }
+
 }

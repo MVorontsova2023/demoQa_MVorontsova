@@ -85,11 +85,11 @@ public class ProfilePage extends PageBase {
         try {
             click(loginLink);
 
-            fillField(usernameField, "mvorontsova");
-            fillField(passwordField, "Pn!jE37Na$Ft*uX");
-            click(loginButton);
-            wait = new Wait(driver);
-            wait.forVisibility(searchBox);
+            // fillField(usernameField, "mvorontsova");
+            // fillField(passwordField, "Pn!jE37Na$Ft*uX");
+            // click(loginButton);
+            // wait = new Wait(driver);
+            // wait.forVisibility(searchBox);
         } catch (Exception e) {
             //  Block of code to handle errors
         }
@@ -156,7 +156,7 @@ public class ProfilePage extends PageBase {
 
     }
 
-    public void selectLastButtons() {
+    public void selectLastButton() {
         Assert.assertNotNull(goToBookStoreButton, "PreviousButton is absent");
         Assert.assertNotNull(deleteButton, "NextButton is absent");
         WebElement el = deleteAllButton.get(0);

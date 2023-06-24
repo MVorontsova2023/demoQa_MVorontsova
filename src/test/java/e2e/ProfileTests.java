@@ -1,4 +1,4 @@
-package e2e;
+xtpackage e2e;
 
 import org.testng.annotations.Test;
 import ui.TestBase;
@@ -50,11 +50,11 @@ public class ProfileTests extends TestBase {
     }
 
     @Test
-    public void checkSelectLastButton() {
+    public void checkSelectNextButton() {
         profilePage = new ProfilePage(app.driver);
         profilePage.goToProfilePage();
         profilePage.goToLogin();
-        profilePage.selectLastButton();
+        profilePage.selectNextButton();
     }
 
 }

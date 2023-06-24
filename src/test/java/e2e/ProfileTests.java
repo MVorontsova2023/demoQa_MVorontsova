@@ -50,11 +50,11 @@ public class ProfileTests extends TestBase {
     }
 
     @Test
-    public void checkSelectLastButtons() {
+    public void checkSelectLastButton() {
         profilePage = new ProfilePage(app.driver);
         profilePage.goToProfilePage();
         profilePage.goToLogin();
-        profilePage.selectLastButtons();
+        profilePage.selectLastButton();
     }
 
 }

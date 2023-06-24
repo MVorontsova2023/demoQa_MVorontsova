@@ -150,7 +150,7 @@ public class ProfilePage extends PageBase {
 
     }
 
-    public void selectLastButton() {
+    public void selectNextButton() {
         Assert.assertNotNull(goToBookStoreButton, "PreviousButton is absent");
         Assert.assertNotNull(deleteButton, "NextButton is absent");
         WebElement el = deleteAllButton.get(0);
